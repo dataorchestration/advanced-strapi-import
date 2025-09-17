@@ -217,4 +217,4 @@ src/plugins/csv-import/
 
 ## License
 
-This plugin is part of the Coal India project and follows the same licensing terms.
+This plugin is part of Dataorc and follows the same licensing terms.
