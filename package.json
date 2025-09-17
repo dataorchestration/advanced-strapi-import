@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dataorchestration/advance-strapi-import.git"
+    "url": "https://github.com/dataorchestration/advanced-strapi-import.git"
   },
   "keywords": [
     "strapi",
@@ -15,9 +15,9 @@
     "data",
     "content-type"
   ],
-  "homepage": "https://github.com/dataorchestration/advance-strapi-import#readme",
+  "homepage": "https://github.com/dataorchestration/advanced-strapi-import#readme",
   "bugs": {
-    "url": "https://github.com/dataorchestration/advance-strapi-import/issues"
+    "url": "https://github.com/dataorchestration/advanced-strapi-import/issues"
   },
   "scripts": {
     "test": "jest",
