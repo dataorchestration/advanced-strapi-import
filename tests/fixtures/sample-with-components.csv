@@ -1,0 +1,4 @@
+challan_no,project.name,do_quantity.do_number.do_number,do_quantity.quantity
+CH001,Test Project,DO-2023-001,100.5
+CH002,Another Project,DO-2023-002,200.75
+CH003,Sample Project,"DO-2023-003,DO-2023-004","150.25,75.5"

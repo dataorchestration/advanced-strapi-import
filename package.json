@@ -1,0 +1,66 @@
+{
+  "name": "@dataorchestration/advance-strapi-import",
+  "version": "1.0.0",
+  "author": "Dataorc <contactus@dataorc.in>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dataorchestration/advance-strapi-import.git"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "csv",
+    "import",
+    "data",
+    "content-type"
+  ],
+  "homepage": "https://github.com/dataorchestration/advance-strapi-import#readme",
+  "bugs": {
+    "url": "https://github.com/dataorchestration/advance-strapi-import/issues"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "description": "Dynamic CSV import plugin for Strapi content types",
+  "strapi": {
+    "name": "advance-strapi-import",
+    "displayName": "Advance Strapi Import",
+    "description": "Import data from CSV files into any content type dynamically",
+    "kind": "plugin",
+    "required": false,
+    "supportedStrapi": ">=4.0.0",
+    "icon": "./assets/logo.png"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "multer": "^1.4.5-lts.1",
+    "adm-zip": "^0.5.10"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "main": "./strapi-server.js",
+  "files": [
+    "admin",
+    "server",
+    "assets",
+    "screenshots",
+    "strapi-admin.js",
+    "strapi-server.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json"
+  ]
+}

@@ -1,0 +1,4 @@
+name,email,age,isActive
+John Doe,invalid-email,not-a-number,maybe
+Jane Smith,,thirty,sure
+,missing@email.com,25,false
